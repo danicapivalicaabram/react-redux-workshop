@@ -97,7 +97,7 @@ For an example:
 ```
 </p></details>
 
-<br/>
+
 ### Specification
 Your job is to create a reusable List component. The *List* component should consist of a *Title* component and a *LecturerCard* component. It should recieve props about the title content and an array of data to be displayed in the *LecturerCard*'s.
 The *LecturerCard* should be able to display a picture, title and a lecture description.

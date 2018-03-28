@@ -4,7 +4,7 @@ Ok, so now that you've created your first components it's time to take it a step
 After the amazing job you've done creating that lecture list, word around town spread and new business opportuinities arose.
 You decided to take a part-time job as a web developer for a news agency that specializes in writting about movies.
 The first task you were assinged to was to create a *movie board* where users could select those movies they liked. Luckily for you, it was an easy one.
-<br/>
+ 
 #### Specification
 A movie board should be a stylish board showing movie cards. One *MovieCard* should contain a picture of a movie, a headline and a description. The description should be toggleable - meaning there should be a button to hide/show it.
 A user needs to be able to rate each movie with grades from one (1) to five (5). All movies rated four(4) or above should change backgound and text color to indicate that they are one of the user's favourite.
@@ -33,7 +33,7 @@ class StylishComponent extends React.Component {
     return (
       <div style={{ height: '200px', maxWidth: '200px' }}>
           <h1 className={'title'}>Hello you</h1>
-          <p style={styleObject}> I'm a stylish paragraph </p>
+          <p style={styleObject}> I am a stylish paragraph </p>
       </div>);
   }
 }
@@ -42,7 +42,6 @@ class StylishComponent extends React.Component {
 The next paragraph shows how to use and define the component's state. If you already know this, you can skip it.
 
 
-<br/>
 ##### Components and state
 
 In addition to taking input data from the outside, a component can mantain an internal state data. This state can be accessed via `this.state`. We can set the initial values of the state in the `constructor` of our component.
@@ -79,7 +78,7 @@ class HelloWorld extends React.Component {
   }
 }
 ```
-<br/>
+
 ##### Changing the state
 
 So almost done. Imagine now, for some strange reason, we needed to have a `<button>` that needs to enable the user to change the provided name to *Earl*. We couldn't have just put *Earl* as the *name* props because we live in a universe where people are mostly named *Virginia*, so that's an obvious choice for the *name* props.(How unusual!)
