@@ -1,0 +1,1 @@
+/* Copy or reuse the reducer from the previous task */
