@@ -10,7 +10,7 @@ The main problem was the bidirectional communication between views and models. T
 #### Flux
 Flux is an application architecture for building client-side web applications. The most important thing about it is that it utilizes an **_unidirectional data flow_**.
 
-![Flux image](http://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png) Image taken from [here](http://facebook.github.io/flux/docs/in-depth-overview.html#content)
+![Flux image](http://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png) *Image taken from [here](http://facebook.github.io/flux/docs/in-depth-overview.html#content)*
 
 The diagram above shows key concepts in such an architecture:
 * **Actions** - simple JavaScript actions which hold information about what is going on in the system

@@ -134,11 +134,11 @@ Since *JSX* is a mix of JavaScript and HTML, you can use JavaScript for conditio
           <div>
             {
                 this.props.isTrue &&
-                <h1> It's true! </h1>
+                <h1> It is true! </h1>
             }
             {
                 !this.props.isTrue &&
-                <h1> It's not true! </h1>
+                <h1> It is not true! </h1>
             }
           </div>
       );
@@ -152,7 +152,7 @@ Also, you are able to use loops using the **map** function:
             <div>
             {
                 myList.map((listElement, index) => (
-                    <div key={index}> {listElement.name} - I'm no. {index} </div>
+                    <div key={index}> {listElement.name} - I am no. {index} </div>
                 ))
             }
           </div>

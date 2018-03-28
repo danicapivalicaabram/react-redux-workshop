@@ -35,7 +35,7 @@ Let's see an action creator that creates actions of type `ADD_CARD`.
     ...
 
     var mistery = createAddCardAction('Mistery lecturer', '');
-    var other = createAddCardAction('Other lecturer', 'other-image.jpg);
+    var other = createAddCardAction('Other lecturer', 'other-image.jpg');
 ```
 
 Now, if you're interested in how to define *human-friendly* actions, checkout [this](https://github.com/redux-utilities/flux-standard-action).

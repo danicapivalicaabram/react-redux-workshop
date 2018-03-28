@@ -23,24 +23,26 @@ class HelloWorld extends React.Component {
 ```
 The component above is used to define a title with the content *Hello world!*. The XML-like sintax used is called **JSX**. This kind of writting is purely optional and you can write React in pure JavaScript.
 
-
-<details><summary>Have a look at the same example without JSX.</summary><p>
-```javascript
-class HelloWorld extends React.Component {
-  render() {
-    return React.createElement(
-      "div",
-      null,
-      React.createElement(
-        "h1",
-        null,
-        "Hello World!"
-      )
-    );
-  }
-}
-```
+<details><summary>The same example without JSX.</summary><p>
 Kind of reminds us of the DOM manipulation, wouldn't you say?
+
+
+```javascript
+    class HelloWorld extends React.Component {
+    render() {
+      return React.createElement(
+        "div",
+        null,
+        React.createElement(
+          "h1",
+          null,
+          "Hello World!"
+        )
+      );
+    }
+  }
+```
+
 If you wish to explore the magical world of transpilation, go and have fun [here](https://babeljs.io/repl/).
 </p></details>
 
