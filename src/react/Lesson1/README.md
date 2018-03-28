@@ -7,7 +7,7 @@ Since you got tired of fixing HTML's, you decided you should give JavaScript a t
 There is a file named code.js and you've written most of it. It just needs a little more JS magic.
 
 ##### The HTML structure can be found here 
-<details> <summary> Show structure</summary>
+<details> <summary> Show structure</summary><p>
 ```html
     <div>
         <div className="list">
@@ -37,6 +37,7 @@ There is a file named code.js and you've written most of it. It just needs a lit
       </div>
   ```
   This is the same as expected in the file.
+  </p>
 </details>
 <br/>
 <br/>
