@@ -43,7 +43,6 @@ Kind of reminds us of the DOM manipulation, wouldn't you say?
 If you wish to explore the magical world of transpilation, go and have fun [here](https://babeljs.io/repl/).
 </p></details>
 
-<br/>
 ##### Why are components a great concept to have when building UI?
  What's so great about components is that we can reuse them throughout our code, and if we're using JSX syntax - like we would a HTML tag:
 ```html
