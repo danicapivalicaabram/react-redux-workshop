@@ -6,8 +6,6 @@ information about lectures - one containing all held lectures and one containing
 Since you got tired of fixing HTML's, you decided you should give JavaScript a try.
 There is a file named code.js and you've written most of it. It just needs a little more JS magic.
 
-##### The HTML structure can be found here 
-<details> <summary> Show structure</summary>
 ```html
     <div>
         <div class="list">
@@ -36,50 +34,6 @@ There is a file named code.js and you've written most of it. It just needs a lit
         </div>
       </div>
 ```
-  This is the same as expected in the file.
-
-</details>
- 
-Your job is to write the _prevousListAddFunction()_ and _a### Lesson One - DOM manipulation using plain JavaScript
-
-You are a developer managing the FEREdu site (how exciting!), and your job is to handle all
-changes to the schedule. You have designed the page in a way that it has multiple lists containing
-information about lectures - one containing all held lectures and one containing upcoming lectures.
-Since you got tired of fixing HTML's, you decided you should give JavaScript a try.
-There is a file named code.js and you've written most of it. It just needs a little more JS magic.
-
-##### The HTML structure can be found here 
-<details> <summary> Show structure</summary>
-  ```html
-    <div>
-        <div class="list">
-          <h1>Održana predavanja</h1>
-          <div id="previousList">
-            <div id="emanuel" class="card">
-              <img src="https://eestec.hr/feredu/wp-content/uploads/sites/18/2017/12/Emanuel.png" alt="Emanuel" />
-              <h4>Emanuel Loborec - Design talks</h4>
-            </div>
-            <!-- Other children go here -->
-          </div>
-        </div>
-        <div class="list">
-          <h1>Predavanja koja će se održati</h1>
-          <div id="upcomingList">
-             <!-- Children structured as above go here -->
-          </div>
-        </div>
-        <div class="list">
-          <!-- Control buttons -->
-          <button id="enable" onClick="enableButtons">Omogući uređivanje</button>
-          <button class="active" onClick="lockButtons">Onemogući uređivanje</button>
-          <button onClick="addMisteryLecturer">Dodaj tajnog predavača</button>          
-          <button class="disabled" class="disabled" id="previousListAdd"> Dodaj u održana</button>
-          <button class="disabled" id="upcomingListAdd">Dodaj u predavanja koja će se održati</button>
-        </div>
-      </div>
-  ```
-  This is the same as expected in the file.
-</details>
  
 Your job is to write the _prevousListAddFunction()_ and _addMisteryLecturer()_ functions.
 
