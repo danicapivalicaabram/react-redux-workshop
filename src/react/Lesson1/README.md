@@ -58,27 +58,4 @@ plase it as the last child of the _upcomingList_.
   You are going to need this *_document.createElement('div')_* create a div element.
   Checkout [this](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) for more info.
 </p>
-</details>ddMisteryLecturer()_ functions.
-
-
-##### Function _prevousListAddFunction_
-The _prevousListAddFunction()_ should add the first element from the _upcomingList_ and place it
-as the last element of the _prevousList_. 
-<details> <summary> Show hints </summary>
-  You are going to need this *_document.getElementById('prevousList')_* to select the prevousList.
-  This is a DOM API function that retrieves the node which has the specified id.
-  <br/>
-  The function *_parentElement.appendChild(someElement)_* can be used to append a child
-  at the end of a parent element. It should be of use to you.
-
-</details>
-
-
-##### Function _addMisteryLecturer_
-The _addMisteryLecturer()_ should create an card element with simmilar structure as the existing ones and
-plase it as the last child of the _upcomingList_.
-<details> <summary> Show hints </summary> <p>
-  You are going to need this *_document.createElement('div')_* create a div element.
-  Checkout [this](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) for more info.
-</p>
 </details>
